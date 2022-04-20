@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_movie_app/models/movie.dart';
+import 'package:readmore/readmore.dart';
 
 class MovieDetail extends StatelessWidget {
   final Movie movie;
@@ -112,8 +113,14 @@ class MovieDetail extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 10),
-                    Text(
+                    ReadMoreText(
                       movie.overview,
+                      trimLines: 2,
+                      delimiter: '',
+                      trimMode: TrimMode.Line,
+                      trimCollapsedText: 'Read more',
+                      trimExpandedText: ' Less',
+                      textAlign: TextAlign.left,
                       style: const TextStyle(
                         fontFamily: 'Poppins',
                         fontSize: 18,
