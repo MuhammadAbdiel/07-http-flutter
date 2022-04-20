@@ -1,9 +1,9 @@
 # Flutter HTTP Request TMDB API
 
-Nama : Muhammad Abdiel Firjatullah
-Kelas : MI-2C
-NIM : 2031710156
-Prodi : Manajemen Informatika
+Nama : Muhammad Abdiel Firjatullah <br>
+Kelas : MI-2C <br>
+NIM : 2031710156 <br>
+Prodi : Manajemen Informatika <br>
 
 ## Result
 
