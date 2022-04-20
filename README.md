@@ -8,14 +8,14 @@ Prodi : Manajemen Informatika
 ## Result
 
 <span>
-    <img src="assets/images/1.png" width="250">
+    <img src="assets/images/1.png" width="200">
 </span>
 <span>
-    <img src="assets/images/2.png" width="250">
+    <img src="assets/images/2.png" width="200">
 </span>
 <span>
-    <img src="assets/images/3.png" width="250">
+    <img src="assets/images/3.png" width="200">
 </span>
 <span>
-    <img src="assets/images/4.png" width="250">
+    <img src="assets/images/4.png" width="200">
 </span>
