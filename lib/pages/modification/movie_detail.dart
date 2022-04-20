@@ -53,7 +53,7 @@ class MovieDetail extends StatelessWidget {
               const SizedBox(height: 30),
               Container(
                 width: double.infinity,
-                height: 400,
+                height: 530,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
                   image: DecorationImage(
