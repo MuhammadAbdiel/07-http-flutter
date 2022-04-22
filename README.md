@@ -26,3 +26,27 @@ Prodi : Manajemen Informatika <br>
 <span>
     <img src="assets/images/6.png" width="200">
 </span>
+<span>
+    <img src="assets/images/web1.png" width="400">
+</span>
+<span>
+    <img src="assets/images/web4.png" width="400">
+</span>
+<span>
+    <img src="assets/images/web2.png" width="400">
+</span>
+<span>
+    <img src="assets/images/web5.png" width="400">
+</span>
+<span>
+    <img src="assets/images/web3.png" width="400">
+</span>
+<span>
+    <img src="assets/images/web6.png" width="400">
+</span>
+<span>
+    <img src="assets/images/web7.png" width="400">
+</span>
+<span>
+    <img src="assets/images/web8.png" width="400">
+</span>
