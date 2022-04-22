@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_movie_app/models/movie.dart';
-import 'package:readmore/readmore.dart';
 
 class MovieDetailGrid extends StatelessWidget {
   final int gridCount;
@@ -39,11 +38,12 @@ class MovieDetailGrid extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Container(
-                          width:
-                              MediaQuery.of(context).size.width / gridCount * 1,
+                          width: MediaQuery.of(context).size.width /
+                              gridCount *
+                              0.7,
                           height: MediaQuery.of(context).size.width /
                               gridCount *
-                              1.5,
+                              1.2,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(20),
                             image: DecorationImage(
@@ -113,6 +113,24 @@ class MovieDetailGrid extends StatelessWidget {
                                       ),
                                     ),
                                   ],
+                                ),
+                                const SizedBox(height: 30),
+                                Container(
+                                  width: MediaQuery.of(context).size.width /
+                                      gridCount *
+                                      0.9,
+                                  height: MediaQuery.of(context).size.width /
+                                      gridCount *
+                                      0.5,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20),
+                                    image: DecorationImage(
+                                      image: NetworkImage(
+                                        imgPath + movie.backdropPath,
+                                      ),
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
                                 ),
                               ],
                             ),

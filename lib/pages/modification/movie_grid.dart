@@ -86,15 +86,21 @@ class _MovieGridState extends State<MovieGrid> {
                                 : widget.gridCount == 3
                                     ? MediaQuery.of(context).size.width /
                                         widget.gridCount *
-                                        0.6
+                                        0.7
                                     : MediaQuery.of(context).size.width /
                                         widget.gridCount *
                                         0.6,
                             height: widget.gridCount == 4
-                                ? 200
+                                ? MediaQuery.of(context).size.width /
+                                    widget.gridCount *
+                                    0.5
                                 : widget.gridCount == 3
-                                    ? 170
-                                    : 150,
+                                    ? MediaQuery.of(context).size.width /
+                                        widget.gridCount *
+                                        0.4
+                                    : MediaQuery.of(context).size.width /
+                                        widget.gridCount *
+                                        0.4,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(16),
                               image: DecorationImage(
