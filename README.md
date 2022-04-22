@@ -5,6 +5,10 @@ Kelas : MI-2C <br>
 NIM : 2031710156 <br>
 Prodi : Manajemen Informatika <br>
 
+## Demo App
+
+https://popular-the-movie-db.netlify.app/
+
 ## Result
 
 <span>
